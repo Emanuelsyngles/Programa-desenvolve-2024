@@ -23,3 +23,14 @@ const dadosCriptografas = publicEncrypt(
     publicKey,
     Buffer.from("Mensagem super secreta")
 )
+
+console.log(dadosCriptografas.toString('hex'))
+
+// --------Transmissão------
+
+const dadosDecifrados = privateDecrypt(
+    privateKey,
+    dadosCriptografas
+)
+
+console.log(`Dados decifrados ${dadosDecifrados.toString('utf-8')}`)
