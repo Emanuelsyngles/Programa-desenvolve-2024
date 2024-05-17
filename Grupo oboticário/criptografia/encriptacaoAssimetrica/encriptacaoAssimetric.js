@@ -1,0 +1,1 @@
+import { generateKeyPairSync } from 'crypto'
