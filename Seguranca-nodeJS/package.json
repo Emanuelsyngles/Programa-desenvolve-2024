@@ -5,21 +5,21 @@
     "main": "index.js",
     "nodeVersion": "18.15.0",
     "scripts": {
-      "start": "nodemon ./api/index.js"
+        "start": "nodemon ./api/index.js"
     },
     "keywords": [],
     "author": "Raphael Lucas Girao de Lima",
     "license": "ISC",
     "dependencies": {
-      "body-parser": "^1.20.1",
-      "express": "^4.18.2",
-      "path": "^0.12.7",
-      "pg": "^8.8.0",
-      "sequelize": "^6.26.0",
-      "sequelize-cli": "^6.5.2",
-      "uuid": "^9.0.0"
+        "body-parser": "^1.20.1",
+        "express": "^4.18.2",
+        "path": "^0.12.7",
+        "pg": "^8.8.0",
+        "sequelize": "^6.37.3",
+        "sequelize-cli": "^6.5.2",
+        "uuid": "^9.0.0"
     },
     "devDependencies": {
-      "nodemon": "^2.0.20"
+        "nodemon": "^2.0.20"
     }
-  }
+}
